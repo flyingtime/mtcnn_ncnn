@@ -4,6 +4,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
+        //编译该版本使用的是ndk 16，可以在local.properties中显示指定
+        //ndk.dir=/Users/FlyingtimeICE/Library/Android/sdk/ndk/16.1.4479499
         applicationId "com.mtcnn_as"
         minSdkVersion 17
         targetSdkVersion 25
